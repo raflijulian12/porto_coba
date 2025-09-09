@@ -10,7 +10,7 @@ class ZiyadHead extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return NavbarHeader(
-      imagePath: 'assets/images/cepew.png',
+      imagePath: 'assets/ziyad/gue.jpg',
       name: 'Fernanda Ziyad',
       role: 'UI/UX',
     );

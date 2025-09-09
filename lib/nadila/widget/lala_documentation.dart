@@ -8,14 +8,20 @@ class LalaDocumentation extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<ProjectDocumentation> projects = [
       ProjectDocumentation(
-        image: 'assets/images/absen.png',
+        image: 'assets/nadila/dokumentasi_nadila1.jpg',
         icon: 'assets/images/icon_absen.png',
         title: 'Aplikasi Absen Guru',
         subtitle: 'SMK WIKRAMA BOGOR',
       ),
       ProjectDocumentation(
-        image: 'assets/images/resep.png',
+        image: 'assets/nadila/dokumentasi_nadila2.jpg',
         icon: 'assets/images/icon_resep.png',
+        title: 'Aplikasi Resep Masakan,',
+        subtitle: 'aplikasi pribadi',
+      ),
+      ProjectDocumentation(
+        image: 'assets/nadila/dokumentasi_nadila3.jpg',
+        icon: 'assets/images/dasboard.png',
         title: 'Aplikasi Resep Masakan,',
         subtitle: 'aplikasi pribadi',
       ),

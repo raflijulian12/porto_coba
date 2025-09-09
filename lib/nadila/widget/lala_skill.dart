@@ -7,16 +7,16 @@ class CepewSkill extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SkillWidget(
-      title: 'Keahlian selain Flutter',
+      title: 'Keahlian',
       skills: [
         SkillData(
-          color: Colors.blue[200]!,
+          color: const Color(0xE65B7BF8), // #5B7BF8 90%
           image: 'assets/images/react_logo.png',
           title: 'Membuat web front-end',
           desc: 'dasar',
         ),
         SkillData(
-          color: Colors.blue[300]!,
+          color: const Color(0xE65B7BF8), // #5B7BF8 90%
           image: 'assets/images/laravel_logo.png',
           title: 'Membuat API & sistem',
           desc: 'back-end sederhana',

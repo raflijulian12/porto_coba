@@ -39,6 +39,6 @@ class LalaProfileData {
     email: 'nadilaoktaviana855@gmail.com',
     linkIn: 'Nadila Oktaviana Putri',
     github: 'NadilaOktviana',
-    imageAsset: 'assets/images/lala.png',
+    imageAsset: 'assets/nadila/nadila.png',
   );
 }

@@ -27,11 +27,6 @@ class CepewAboutMe extends StatelessWidget {
           'value': '2+',
           'label': 'Tahun belajar & pengalaman di dunia pemrogramman'
         },
-        {
-          'icon': '⏳',
-          'value': '2+',
-          'label': 'Tahun belajar & pengalaman di dunia pemrogramman'
-        },
       ],
     );
   }

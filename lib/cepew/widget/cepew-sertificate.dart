@@ -25,7 +25,7 @@ class CepewSertificateGrid extends StatelessWidget {
       itemBuilder: (context, index) {
         return Container(
           decoration: BoxDecoration(
-            color: Colors.blue[100],
+            color: const Color(0xE65B7BF8), // #5B7BF8 with 90% opacity
             borderRadius: BorderRadius.circular(24),
           ),
           padding: const EdgeInsets.all(8),

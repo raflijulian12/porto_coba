@@ -6,11 +6,7 @@ class LalaSertificateGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<String> sertifImages = [
-      'assets/images/dicoding1.png',
-      'assets/images/dicoding2.png',
-      'assets/images/unity.png',
-      'assets/images/igenia.png',
-      'assets/images/monsom.png',
+      'assets/nadila/dicoding_nadila.jpg',
     ];
     return GridView.builder(
       shrinkWrap: true,
@@ -25,7 +21,7 @@ class LalaSertificateGrid extends StatelessWidget {
       itemBuilder: (context, index) {
         return Container(
           decoration: BoxDecoration(
-            color: Colors.blue[100],
+            color: const Color(0xE65B7BF8), // #5B7BF8 90%
             borderRadius: BorderRadius.circular(24),
           ),
           padding: const EdgeInsets.all(8),
