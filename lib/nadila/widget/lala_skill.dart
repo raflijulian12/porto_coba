@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../wiget/skill.dart';
+import 'package:poto_coba_bersama/wiget/skill.dart';
 
 class CepewSkill extends StatelessWidget {
   const CepewSkill({Key? key}) : super(key: key);
@@ -10,22 +10,16 @@ class CepewSkill extends StatelessWidget {
       title: 'Keahlian selain Flutter',
       skills: [
         SkillData(
-          color: Colors.pink[100]!,
-          image: 'assets/images/flutter_logo.png',
-          title: 'Flutter (utama):',
-          desc: 'Integrasi API, form, kamera, manajemen state',
-        ),
-        SkillData(
-          color: Colors.pink[200]!,
-          image: 'assets/images/figma_logo.png',
-          title: 'Mendesain UI/UX',
-          desc: 'aplikasi mobile & web dasar',
-        ),
-        SkillData(
           color: Colors.blue[200]!,
           image: 'assets/images/react_logo.png',
           title: 'Membuat web front-end',
           desc: 'dasar',
+        ),
+        SkillData(
+          color: Colors.blue[300]!,
+          image: 'assets/images/laravel_logo.png',
+          title: 'Membuat API & sistem',
+          desc: 'back-end sederhana',
         ),
       ],
     );

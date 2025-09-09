@@ -86,15 +86,19 @@ class _SkillBox extends StatelessWidget {
             textAlign: TextAlign.center,
             style: const TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: 15,
+              fontSize: 12,
               color: Colors.black,
             ),
           ),
           const SizedBox(height: 6),
-          Text(
-            skill.desc,
-            textAlign: TextAlign.center,
-            style: const TextStyle(fontSize: 13, color: Colors.black87),
+          Expanded(
+            child: Text(
+              skill.desc,
+              style: const TextStyle(fontSize: 10),
+              softWrap: true,
+              overflow: TextOverflow.visible,
+              textAlign: TextAlign.center,
+            ),
           ),
         ],
       ),

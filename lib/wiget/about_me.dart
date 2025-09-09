@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AboutMeWidget extends StatelessWidget {
-  final String imagePath;
   final String name;
   final String role;
   final String description;
@@ -9,7 +8,6 @@ class AboutMeWidget extends StatelessWidget {
 
   const AboutMeWidget({
     Key? key,
-    required this.imagePath,
     required this.name,
     required this.role,
     required this.description,

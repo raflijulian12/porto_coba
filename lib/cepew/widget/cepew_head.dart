@@ -10,7 +10,7 @@ class CepewHead extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return NavbarHeader(
-      imagePath: 'assets/images/cepew.png',
+      imagePath: 'assets/cepew/cepew.png',
       name: 'Cepew',
       role: 'Android Developer',
     );

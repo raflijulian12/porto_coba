@@ -1,30 +1,29 @@
 import 'package:flutter/material.dart';
-import 'package:poto_coba_bersama/cepew/widget/cepew_about_me.dart';
-import 'package:poto_coba_bersama/cepew/widget/cepew_skill.dart';
-import 'package:poto_coba_bersama/cepew/widget/cepew_history.dart';
-import '../widget/cepew_head.dart';
-import '../../wiget/about_me.dart';
+import '../widget/lala_head.dart';
+import '../widget/lala_about_me.dart';
+import '../widget/lala_skill.dart';
+import '../widget/lala_history.dart';
 import '../../wiget/navbar_bottom.dart';
 import '../../routes/app_routes.dart';
 
-class CepewHomePage extends StatelessWidget {
-  const CepewHomePage({Key? key}) : super(key: key);
+class NadilaHomePage extends StatelessWidget {
+  const NadilaHomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CepewHead(),
+      appBar: const LalaHead(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const CepewAboutMe(),
-              const SizedBox(height: 16),
-              const CepewSkill(),
-              const SizedBox(height: 16),
-              CepewHistoryPage(),
+            children: const [
+              LalaAboutMe(),
+              SizedBox(height: 16),
+              CepewSkill(),
+              SizedBox(height: 16),
+              LalaHistoryPage(),
             ],
           ),
         ),
@@ -47,9 +46,9 @@ class CepewHomePage extends StatelessWidget {
         currentIndex: 0,
         onTap: (index) {
           if (index == 1) {
-            Navigator.pushReplacementNamed(context, AppRoutes.cepewSertificate);
+            Navigator.pushReplacementNamed(context, AppRoutes.lalaSertificate);
           } else if (index == 2) {
-            Navigator.pushReplacementNamed(context, '/cepew_profile');
+            Navigator.pushReplacementNamed(context, '/lala_profile');
           }
         },
       ),

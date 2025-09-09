@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import '../../wiget/about_me.dart';
+import 'package:poto_coba_bersama/wiget/about_me.dart';
 
-class CepewAboutMe extends StatelessWidget {
-  const CepewAboutMe({Key? key}) : super(key: key);
+class LalaAboutMe extends StatelessWidget {
+  const LalaAboutMe({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return AboutMeWidget(
-      name: 'Muhamad Rafli Julian',
-      role: 'Pelajar & Mobile Developer',
+      name: 'Nadila Oktaviana Putri',
+      role: 'Pelajar & Frontend Developer',
       description:
-          'Seorang pelajar SMK yang sedang mendalami dunia pengembangan aplikasi mobile, khususnya di bidang Flutter. Saya memiliki ketertarikan untuk terus belajar, berinovasi, dan mengembangkan kemampuan dalam dunia teknologi.',
+          'Seorang pelajar SMK yang sedang mendalami dunia pengembangan perangkat lunak, khususnya di bidang front-end. Saya memiliki ketertarikan untuk terus belajar, berinovasi, dan mengembangkan kemampuan dalam dunia teknologi.',
       stats: const [
         {
           'icon': '⭐',
