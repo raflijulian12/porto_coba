@@ -11,8 +11,8 @@ class ZiyadHead extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return NavbarHeader(
       imagePath: 'assets/images/cepew.png',
-      name: 'Cepew',
-      role: 'Android Developer',
+      name: 'Fernanda Ziyad',
+      role: 'UI/UX',
     );
   }
 }

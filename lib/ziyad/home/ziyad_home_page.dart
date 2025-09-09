@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:poto_coba_bersama/cepew/widget/cepew_about_me.dart';
-import 'package:poto_coba_bersama/cepew/widget/cepew_skill.dart';
-import 'package:poto_coba_bersama/cepew/widget/cepew_history.dart';
+import 'package:poto_coba_bersama/ziyad/home/widget/ziyad_about_me.dart';
 import 'package:poto_coba_bersama/ziyad/home/widget/ziyad_head.dart';
+import 'package:poto_coba_bersama/ziyad/home/widget/ziyad_history.dart';
+import 'package:poto_coba_bersama/ziyad/home/widget/ziyad_skill.dart';
 
 
 class ZiyadHomePage extends StatelessWidget {
@@ -18,11 +18,11 @@ class ZiyadHomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const CepewAboutMe(),
+              const ZiyadAboutMe(),
               const SizedBox(height: 16),
-              const CepewSkill(),
+              const ZiyadSkill(),
               const SizedBox(height: 16),
-              CepewHistoryPage(),
+              ZiyadHistoryPage(),
               // ...widget lain jika ada...
             ],
           ),

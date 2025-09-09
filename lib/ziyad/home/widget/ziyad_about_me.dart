@@ -7,7 +7,7 @@ class ZiyadAboutMe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AboutMeWidget(
-      imagePath: 'assets/images/cepew2.png',
+      imagePath: 'assets/images/gue.jpg',
       name: 'Fernanda Ziyad',
       role: 'Pelajar & UI/UX',
       description:
